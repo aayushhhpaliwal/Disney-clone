@@ -64,12 +64,15 @@ const Home = (props) => {
       <NewDisney />
       <Originals />
       <Trending />
+      <a href="https://github.com/aayushhhpaliwal"><h4> Made by Aayush : Follow for more</h4></a>
     </Container>
+    
   );
 };
 
 const Container = styled.main`
   position: relative;
+  text-align: center;
   min-height: calc(100vh - 250px);
   overflow-x: hidden;
   display: block;
