@@ -5,14 +5,14 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 // import { useDispatch, useSelector } from "react-redux";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBO05OfvMjfmqWOlVS423BngFHjjKXZivo",
-    authDomain: "disneyplus-clone-b8b54.firebaseapp.com",
-    projectId: "disneyplus-clone-b8b54",
-    storageBucket: "disneyplus-clone-b8b54.appspot.com",
-    messagingSenderId: "226320485256",
-    appId: "1:226320485256:web:99c0c21704488fbd57c83d",
-    measurementId: "G-PSMPZ09FWD"
-  };
+  apiKey: "AIzaSyAgZ1wBwoZKOB-tms9Kd8SqwyP7zCSvg4A",
+  authDomain: "disney-clone-75969.firebaseapp.com",
+  projectId: "disney-clone-75969",
+  storageBucket: "disney-clone-75969.appspot.com",
+  messagingSenderId: "1066316600505",
+  appId: "1:1066316600505:web:7527d9671c07a6eb0a3768",
+  measurementId: "G-XG3W3E6XR9"
+};
    
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
